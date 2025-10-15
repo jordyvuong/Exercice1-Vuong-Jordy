@@ -3,7 +3,7 @@ from models.task import Task
 
 class TaskController:
 
-    def __init__(self, save_file="tasks.json"):
+    def __init__(self, save_file="data/tasks.json"):
         self.tasks = []
         self.next_id = 1
         self.save_file = save_file
