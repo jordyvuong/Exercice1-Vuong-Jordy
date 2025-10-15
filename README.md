@@ -16,10 +16,10 @@ L'API tourne sur `http://127.0.0.1:5000`
 
 ## Routes API
 
-`GET /tasks` - Liste toutes les tâches
-`POST /tasks` - Ajouter une tâche
-`GET /tasks/<id>` - Récupérer une tâche
-`DELETE /tasks/<id>` - Supprimer une tâche
+- `GET /tasks` - Liste toutes les tâches
+- `POST /tasks` - Ajouter une tâche
+- `GET /tasks/<id>` - Récupérer une tâche
+- `DELETE /tasks/<id>` - Supprimer une tâche
 
 ## Structure MVC
 
