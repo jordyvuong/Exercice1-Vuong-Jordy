@@ -1,0 +1,17 @@
+{
+  "next_id": 3,
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Test1",
+      "description": "Ceci est un test",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "Test2",
+      "description": "Ceci est un test 2",
+      "completed": false
+    }
+  ]
+}
