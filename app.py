@@ -51,28 +51,6 @@ def get_task(task_id):
         'completed': task.completed
     }), 200
 
-@app.route('/tasks/<int:task_id>', methods=['PUT'])
-def update_task(task_id):
-    task = controller.find_task(task_id)
-
-    if not task:
-        return jsonify({'error': 'Task not found'}), 404
-
-    data = request.get_json()
-
-    if 'completed' in data:
-        if data['completed']:
-            controller.mark_completed(task_id)
-        else:
-            task.mark_uncompleted()
-            controller.save_tasks()
-
-    return jsonify({
-        'id': task.id,
-        'title': task.title,
-        'description': task.description,
-        'completed': task.completed
-    }), 200
 
 @app.route('/tasks/<int:task_id>', methods=['DELETE'])
 def delete_task(task_id):
