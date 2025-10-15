@@ -18,9 +18,6 @@ dist/
 *.swp
 *.swo
 
-# Data
-tasks.json
-
 # OS
 .DS_Store
 Thumbs.db
