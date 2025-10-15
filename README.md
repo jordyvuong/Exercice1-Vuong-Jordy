@@ -29,9 +29,6 @@ L'API tourne sur `http://127.0.0.1:5000`
 
 Les tâches sont sauvegardées dans `tasks.json`.
 
-
-
-
 ## Fonctionnalités
 
 - Ajout de tâches avec titre et description
